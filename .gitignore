@@ -1,0 +1,35 @@
+# Machines et médias
+*.iso
+*.ova
+*.ovf
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.qcow2
+*.sav
+*.vbox
+*.vbox-prev
+# Secrets et preuves brutes
+.env
+.env.*
+!.env.example
+secrets/
+evidence-raw/
+private/
+*.pem
+*.key
+*.pfx
+*.p12
+*.evtx
+*.pcap
+*.pcapng
+wazuh-install-files.tar
+wazuh-passwords.txt
+client.keys
+# Environnement local
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
